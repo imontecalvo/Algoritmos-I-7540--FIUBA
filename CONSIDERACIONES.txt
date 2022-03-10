@@ -1,0 +1,15 @@
+
+CONSIDERACIONES TOMADAS EN CUENTA:
+
+- El costo al añadir defensores extra es el valor por defecto, de tal forma que mantuve lo planteado por el TP anterior.
+
+- Si bien ahora se pueden añadir elfos o enanos de manera inicial en todos los niveles, al momento de posicionar los defensores extra, tuve
+  que mantener lo considerado en el TP anterior, de manera tal que en el nivel 1 sólo se pueden añadir enanos extras, en el 2 sólo elfos, y 
+  en los restantes se pueden de ambos.
+
+- El TP 2 ahora pasó a ser una función 'jugar_juego' dentro de la biblioteca de comandos, ya que forma parte del comando 'jugar'.
+
+- La función de animos fue movida y ahora se encuentra en la parte donde se inicializa la configuración, ya no está más dentro de 'jugar_juego' (ex TP 2).
+
+- Para crear el ranking trabajé sólo con archivos, es decir, no lo pasé a un vector y luego ordené, considerando que si se da un caso particular de un ranking 
+  muy extenso, el mismo no entraría en la memoria.
