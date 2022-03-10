@@ -1,4 +1,4 @@
-# Algoritmos-I-7540--FIUBA
+# Algoritmos I [75.40] FIUBA
 
 #### Se encuentran presente el TP3 (integra el TP1 y TP2) realizado en Algoritmos I Curso Méndez 1C2020.
 
